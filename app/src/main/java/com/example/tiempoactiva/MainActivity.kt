@@ -7,6 +7,11 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
+    /**
+     * cuando la aplicación entra en pausa, imprime
+     * un mensaje de cuanto tiempo estuvo activa en segundos
+     */
+
     var hrInicial: Long = 0
     val t= 0;
 
